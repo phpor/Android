@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">phpor</string>
+    <string name="main_get_sysinfo">获取系统信息</string>
+    <string name="main_hello">Hello Android</string>
+</resources>
