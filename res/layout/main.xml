@@ -9,6 +9,8 @@
             android:layout_height="wrap_content"
             android:text="@string/main_hello"
             android:id="@id/txt_hello"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/main_show_webview" android:id="@+id/btn_show_webview" android:layout_gravity="center_horizontal"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

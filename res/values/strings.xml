@@ -3,4 +3,8 @@
     <string name="app_name">myapp</string>
     <string name="main_get_sysinfo">获取系统信息</string>
     <string name="main_hello">Hello Android</string>
+    <string name="webview_url_hint">input url to go</string>
+    <string name="main_show_webview">打开webview</string>
+    <string name="btn_webview_ok">Go</string>
+    <string name="txt_webview_url_default">http://weibo.com/</string>
 </resources>

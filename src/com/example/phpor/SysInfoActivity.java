@@ -1,7 +1,6 @@
 package com.example.phpor;
 
 import android.app.Activity;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Message;
 import android.telephony.CellLocation;
@@ -9,7 +8,6 @@ import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.widget.TextView;
 
-import java.security.MessageDigest;
 import java.util.*;
 import android.os.Handler;
 import android.widget.Toast;
@@ -144,7 +142,7 @@ public class SysInfoActivity extends Activity {
 		Iterator iterator = tel_info.entrySet().iterator();
 		while (iterator.hasNext()) {
 			Map.Entry item = (Map.Entry)iterator.next();
-			info += (String) item.getKey() +":" + (String) item.getValue() + "\n";
+			info += item.getKey() +":" + item.getValue() + "\n";
 		}
 		((TextView) findViewById(R.id.textView)).setText(info);
 	}
