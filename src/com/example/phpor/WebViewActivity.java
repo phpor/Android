@@ -7,9 +7,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.EditText;
 
-/**
- * Created by junjie on 2015/1/30.
- */
+
 public class WebViewActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
