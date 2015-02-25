@@ -216,5 +216,5 @@ pip-log.txt
 
 #Intelijj
 .idea
-android.iml
+*.iml
 out
