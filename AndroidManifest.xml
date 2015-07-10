@@ -16,7 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".SysInfoActivity" android:label="系统信息"/>
-        <activity android:name=".WebViewActivity" android:label="webview test"/>
+        <activity android:name=".SysInfoActivity" android:label="@string/sysinfo"/>
+        <activity android:name=".WebViewActivity" android:label="@string/Webview"/>
+        <activity android:name=".DictActivity" android:label="@string/translate">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
     </application>
 </manifest>

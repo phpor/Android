@@ -7,4 +7,7 @@
     <string name="main_show_webview">打开webview</string>
     <string name="btn_webview_ok">Go</string>
     <string name="txt_webview_url_default">http://weibo.com/</string>
+    <string name="translate">翻译</string>
+    <string name="sysinfo">系统信息</string>
+    <string name="Webview">webview test</string>
 </resources>
